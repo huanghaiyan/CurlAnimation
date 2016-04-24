@@ -35,6 +35,8 @@ class ViewController: UIViewController {
     
     func playAnimation()
     {
+        
+        
         //发出开始视图动画的请求，标志着视图动画块的开始。在它和提交动画请求之间，可以定义动画的各种展现方式
         UIView.beginAnimations(nil, context: nil)
         //设置动画的播放速度为淡入淡出
